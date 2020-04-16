@@ -1,0 +1,16 @@
+D:\Work\Firjan\Marinha\DemoCore\bin\Debug\netcoreapp3.1\DemoCore.exe
+D:\Work\Firjan\Marinha\DemoCore\obj\Debug\netcoreapp3.1\DemoCore.csprojAssemblyReference.cache
+D:\Work\Firjan\Marinha\DemoCore\obj\Debug\netcoreapp3.1\DemoCore.AssemblyInfoInputs.cache
+D:\Work\Firjan\Marinha\DemoCore\obj\Debug\netcoreapp3.1\DemoCore.AssemblyInfo.cs
+D:\Work\Firjan\Marinha\DemoCore\bin\Debug\netcoreapp3.1\DemoCore.deps.json
+D:\Work\Firjan\Marinha\DemoCore\bin\Debug\netcoreapp3.1\DemoCore.runtimeconfig.json
+D:\Work\Firjan\Marinha\DemoCore\bin\Debug\netcoreapp3.1\DemoCore.runtimeconfig.dev.json
+D:\Work\Firjan\Marinha\DemoCore\bin\Debug\netcoreapp3.1\DemoCore.dll
+D:\Work\Firjan\Marinha\DemoCore\bin\Debug\netcoreapp3.1\DemoCore.pdb
+D:\Work\Firjan\Marinha\DemoCore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Work\Firjan\Marinha\DemoCore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Work\Firjan\Marinha\DemoCore\obj\Debug\netcoreapp3.1\DemoCore.csproj.CoreCompileInputs.cache
+D:\Work\Firjan\Marinha\DemoCore\obj\Debug\netcoreapp3.1\DemoCore.csproj.CopyComplete
+D:\Work\Firjan\Marinha\DemoCore\obj\Debug\netcoreapp3.1\DemoCore.dll
+D:\Work\Firjan\Marinha\DemoCore\obj\Debug\netcoreapp3.1\DemoCore.pdb
+D:\Work\Firjan\Marinha\DemoCore\obj\Debug\netcoreapp3.1\DemoCore.genruntimeconfig.cache

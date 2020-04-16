@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "PHQxZQEEDPsPwmdUWIH7nBCzAiNkWj1QKrULzDqDIfsc0noWPNS8BiHYTHJWaslYTFOy6gzQJJS/nVoTFEnGHA==",
+  "success": true,
+  "projectFilePath": "D:\\Work\\GitHub\\IoCDotNetCore\\DemoCore\\DemoCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ricardo\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.3\\microsoft.extensions.dependencyinjection.3.1.3.nupkg.sha512",
+    "C:\\Users\\Ricardo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.3\\microsoft.extensions.dependencyinjection.abstractions.3.1.3.nupkg.sha512"
+  ],
+  "logs": []
+}
