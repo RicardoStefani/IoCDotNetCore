@@ -15,6 +15,7 @@ namespace DemoCore
             IServiceCollection services = new ServiceCollection();
 
             services.AddTransient<ICalc, Calc>();
+            services.AddTransient<IPersonRepository, PersonRepository>();
             services.AddTransient<IMyApplication, MyApplication>();
 
             return services;

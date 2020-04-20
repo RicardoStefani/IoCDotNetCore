@@ -46,6 +46,5 @@ namespace NUnitTestDemoCore
             int result = this.calc.Div(2, 2);
             Assert.AreEqual(expected, result);
         }
-
     }
 }

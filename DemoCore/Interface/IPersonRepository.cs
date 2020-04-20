@@ -5,8 +5,8 @@ using System.Text;
 
 namespace DemoCore.Interface
 {
-    public interface IMyApplication
+    public interface IPersonRepository
     {
-        public Person Register(String name, int age, String address);
+        public Person Save(Person person);
     }
 }

@@ -7,11 +7,11 @@ namespace DemoCore.Application
 {
     public class MyApplication : IMyApplication
     {
-        private ICalc myService;
+        private IPersonRepository personRepository;
 
-        public MyApplication(ICalc myService)
+        public MyApplication(IPersonRepository personRepository)
         {
-            this.myService = myService;
+            this.personRepository = personRepository;
         }
 
         public string Call()
