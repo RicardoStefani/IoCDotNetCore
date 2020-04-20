@@ -5,18 +5,18 @@ using System.Text;
 
 namespace DemoCore.Application
 {
-    class MyApplication : IMyApplication
+    public class MyApplication : IMyApplication
     {
-        private IMyService myService;
+        private ICalc myService;
 
-        public MyApplication(IMyService myService)
+        public MyApplication(ICalc myService)
         {
             this.myService = myService;
         }
 
         public string Call()
         {
-            return this.myService.Run();
+            return "";
         }
     }
 }

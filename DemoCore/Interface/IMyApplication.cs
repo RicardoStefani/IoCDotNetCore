@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DemoCore.Interface
 {
-    interface IMyApplication
+    public interface IMyApplication
     {
         public String Call();
     }
