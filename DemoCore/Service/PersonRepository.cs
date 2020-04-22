@@ -12,6 +12,20 @@ namespace DemoCore.Service
 
         public Person Save(Person person)
         {
+            person.id = this.people.Count;
+            people.Add(person);
+            return person;
+        }
+
+        public Person Get(int id) 
+        {
+            Person person = this.people.Find(personX => personX.id == id);
+
+            return person;
+        }
+
+        public bool Remove(int id)
+        {
             throw new NotImplementedException();
         }
     }

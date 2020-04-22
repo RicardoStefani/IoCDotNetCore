@@ -8,5 +8,7 @@ namespace DemoCore.Interface
     public interface IPersonRepository
     {
         public Person Save(Person person);
+        public Person Get(int id);
+        public bool Remove(int id);
     }
 }

@@ -1,4 +1,5 @@
 ﻿using DemoCore.Interface;
+using DemoCore.Service.Model;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -14,9 +15,16 @@ namespace DemoCore.Application
             this.personRepository = personRepository;
         }
 
-        public string Call()
+        public Person Register(string name, int age, string address)
         {
-            return "";
+            Person person = new Person
+            {
+                name = name,
+                age = age,
+                address = address
+            };
+            person = this.personRepository.Save(person);
+            return person;
         }
     }
 }

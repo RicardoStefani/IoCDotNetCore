@@ -18,7 +18,7 @@ namespace DemoCore
             IMyApplication myApplication = serviceProvider.GetService<IMyApplication>();
 
 
-            Console.WriteLine(myApplication.Call());
+            Console.WriteLine(myApplication.Register("Teste", 30, "Casa"));
         }
     }
 }

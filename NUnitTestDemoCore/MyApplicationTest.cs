@@ -1,4 +1,5 @@
 using DemoCore.Application;
+using DemoCore.Service.Model;
 using NUnit.Framework;
 using NUnitTestDemoCore.ServiceMock;
 
@@ -13,14 +14,24 @@ namespace NUnitTestDemoCore
         [SetUp]
         public void Setup()
         {
-            this.myApplication = new MyApplication(personRepositoryMock);
+            this.personRepositoryMock = new PersonRepositoryMock();
+            this.myApplication = new MyApplication(this.personRepositoryMock);
         }
 
         [Test]
-        public void Test1()
+        public void RegisterPerson()
         {
-            this.myApplication.Call();
-            Assert.Pass();
+            Person person = new Person
+            {
+                id = 1,
+                name = "Name",
+                age = 30,
+                address = "address"
+            };
+
+            Person result = this.myApplication.Register("Name", 30, "address");
+
+            Assert.AreEqual(person, result);
         }
     }
 }
